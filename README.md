@@ -4,7 +4,7 @@ A responsive **E-Commerce web application** built using **React**, integrated wi
 
 ---
 
-## 🚀 Features
+ **Features**
 
 - **User Authentication**
   - User registration and login
@@ -33,7 +33,7 @@ A responsive **E-Commerce web application** built using **React**, integrated wi
 
 ---
 
-## 🛠 Technologies Used
+**Technologies Used**
 
 - **Frontend:** React
 - **Routing:** React Router
@@ -42,8 +42,7 @@ A responsive **E-Commerce web application** built using **React**, integrated wi
 - **API Integration:** Fetch API
 
 ---
-
-## 🔗 Backend API
+**Backend API**
 
 🔗 https://e-commerce-api-74dp.onrender.com/api/
 
