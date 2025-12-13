@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # E-Commerce Frontend
 
 A responsive **E-Commerce web application** built using **React**, integrated with a Django REST API backend to deliver a complete online shopping experience.
@@ -53,7 +52,3 @@ A responsive **E-Commerce web application** built using **React**, integrated wi
 
 - Frontend and backend are maintained in separate repositories.
 - JWT authentication is used for secure user actions.
-
-
-=======
->>>>>>> 99c76a3 (fixed error)
