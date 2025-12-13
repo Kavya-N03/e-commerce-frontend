@@ -26,7 +26,6 @@ A responsive **E-Commerce web application** built using **React**, integrated wi
 
 - **Orders**
   - Place orders from cart
-  - View order history
 
 - **Search & UI**
   - Search products by name
