@@ -1,0 +1,164 @@
+.offers-page {
+  width: 100%;
+  padding: 30px 16px 60px;
+  background: #f8f8f8;
+}
+
+
+.offer-banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.offer-banner {
+  width: 100%;
+  max-width: 1200px;
+  background: linear-gradient(120deg, #ff4e50, #f9d423);
+  color: white;
+  padding: 48px 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.offer-banner h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.offer-banner p {
+  font-size: 16px;
+  margin-bottom: 6px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offer-banner span {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.promo-cards-wrapper {
+  max-width: 1200px;
+  margin: 0 auto 45px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.promo-card {
+  border-radius: 16px;
+  padding: 22px 18px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.promo-card h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.promo-card p {
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.promo-card.festive {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+
+.promo-card.new {
+  background: linear-gradient(135deg, #24c6dc, #514a9d);
+}
+
+.promo-card.trending {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  color: #222;
+}
+
+.promo-card.limited {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.offer-intro {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  text-align: center;
+  background: #ffffff;
+  padding: 32px 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.offer-intro h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.offer-intro p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.offer-products {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.offer-header {
+  margin-bottom: 25px;
+}
+
+.offer-header h3 {
+  font-size: 24px;
+  color: #111;
+}
+
+.offer-header p {
+  font-size: 14px;
+  color: #666;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  row-gap: 70px;
+  column-gap: 50px;
+}
+
+
+.loading-text,
+.no-offers {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+}
+
+/* ✅ RESPONSIVE */
+@media (max-width: 768px) {
+  .offer-banner h1 {
+    font-size: 26px;
+  }
+
+  .offer-banner p {
+    font-size: 14px;
+  }
+
+  .offer-intro h2 {
+    font-size: 22px;
+  }
+
+  .offer-header h3 {
+    font-size: 20px;
+  }
+}
